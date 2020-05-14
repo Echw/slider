@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- container -->
+    <div id="slider" class="slides">
+        <!-- images -->
+        <div class="slide img">
+            <img src="/dirty-autumn-leaves-6209.jpg">
+        </div>
+        <div class="slide img">
+            <img src="/in-distant-photo-of-tree-on-landscape-field-3283498.jpg">
+        </div>
+        <div class="slide img">
+            <img src="/oak-leaves-and-acorns-6207.jpg">
+        </div>
+        <div class="slide img">
+            <img src="/yellow-and-green-leaf-trees-under-blue-sky-3565143.jpg">
+        </div>
+        <!-- buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- The dots/circles -->
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
